@@ -1,0 +1,18 @@
+# Build outputs
+parser
+*.o
+*.d
+
+# Flex/Bison generated files
+lex.yy.c
+syntax.tab.c
+syntax.tab.h
+syntax.output
+
+# Editor and OS files
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
